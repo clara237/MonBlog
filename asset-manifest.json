@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/MonBlog/static/css/main.6f877ddd.css",
-    "main.js": "/MonBlog/static/js/main.9c1aaa15.js",
-    "static/js/488.11f14f95.chunk.js": "/MonBlog/static/js/488.11f14f95.chunk.js",
-    "static/media/img1.png": "/MonBlog/static/media/img1.c5030e318542c217c3e3.png",
-    "static/media/img2.webp": "/MonBlog/static/media/img2.9a9d29a3ae569aef8db7.webp",
-    "static/media/blog.webp": "/MonBlog/static/media/blog.c2eb41bd144d26f126bc.webp",
-    "static/media/img5.webp": "/MonBlog/static/media/img5.95a567a8cfa04049d448.webp",
-    "index.html": "/MonBlog/index.html",
-    "main.6f877ddd.css.map": "/MonBlog/static/css/main.6f877ddd.css.map",
-    "main.9c1aaa15.js.map": "/MonBlog/static/js/main.9c1aaa15.js.map",
-    "488.11f14f95.chunk.js.map": "/MonBlog/static/js/488.11f14f95.chunk.js.map"
+    "main.css": "/clara237/blogapp.git/static/css/main.838e39f3.css",
+    "main.js": "/clara237/blogapp.git/static/js/main.7c434144.js",
+    "static/js/488.11f14f95.chunk.js": "/clara237/blogapp.git/static/js/488.11f14f95.chunk.js",
+    "static/media/img1.png": "/clara237/blogapp.git/static/media/img1.c5030e318542c217c3e3.png",
+    "static/media/img2.webp": "/clara237/blogapp.git/static/media/img2.9a9d29a3ae569aef8db7.webp",
+    "static/media/blog.webp": "/clara237/blogapp.git/static/media/blog.c2eb41bd144d26f126bc.webp",
+    "static/media/img5.webp": "/clara237/blogapp.git/static/media/img5.95a567a8cfa04049d448.webp",
+    "index.html": "/clara237/blogapp.git/index.html",
+    "main.838e39f3.css.map": "/clara237/blogapp.git/static/css/main.838e39f3.css.map",
+    "main.7c434144.js.map": "/clara237/blogapp.git/static/js/main.7c434144.js.map",
+    "488.11f14f95.chunk.js.map": "/clara237/blogapp.git/static/js/488.11f14f95.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f877ddd.css",
-    "static/js/main.9c1aaa15.js"
+    "static/css/main.838e39f3.css",
+    "static/js/main.7c434144.js"
   ]
 }
