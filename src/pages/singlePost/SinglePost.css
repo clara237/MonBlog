@@ -1,0 +1,150 @@
+.singlePost {
+    flex: 9;
+    padding: 20px;
+    padding-right: 0;
+    margin-top: 60px;
+  }
+  
+  .singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .singlePostImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .singlePostTitle {
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-family: "Lora", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .singlePostEdit {
+    float: right;
+    font-size: 16px;
+  }
+  
+  .singlePostEdit i {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .singlePostEdit i:first-child {
+    color: teal;
+  }
+  
+  .singlePostEdit i:last-child {
+    color: tomato;
+  }
+  
+  .singlePostInfo {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #666;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+  }
+  
+  .singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .singlePostActions {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .actionBtn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .likeBtn {
+    background-color: #fff0f0;
+    color: #ff4d4d;
+  }
+  
+  .likeBtn:hover {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .commentBtn {
+    background-color: #f0f2f5;
+    color: #65676b;
+  }
+  
+  .commentBtn:hover {
+    background-color: #65676b;
+    color: white;
+  }
+  
+  .commentSection {
+    margin-top: 30px;
+  }
+  
+  .addComment {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+  
+  .commentUserImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .commentInput {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 10px 15px;
+    min-height: 40px;
+    resize: none;
+    font-family: inherit;
+  }
+  
+  .submitComment {
+    padding: 8px 16px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitComment:hover {
+    background-color: #166fe5;
+  }

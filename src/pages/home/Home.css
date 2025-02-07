@@ -1,0 +1,29 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .home-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  .posts-container {
+    flex: 3;
+    min-height: calc(100vh - 60px);
+  }
+  
+  /* Media queries pour la responsivité */
+  @media screen and (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .posts-container {
+      width: 100%;
+    }
+  }

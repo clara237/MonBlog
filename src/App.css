@@ -1,0 +1,89 @@
+:root {
+  --background-light: #f5f5f5;
+  --text-light: #2c3e50;
+  --background-dark: #1a2639;
+  --text-dark: #ecf0f1;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  background-color: var(--background-light);
+  color: var(--text-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+body.dark-mode .app {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.main-container {
+  display: flex;
+  margin-top: 60px;
+  padding: 20px;
+  gap: 20px;
+  background-color: inherit;
+  color: inherit;
+}
+
+.content {
+  flex: 3;
+  min-height: calc(100vh - 80px);
+}
+
+/* Style pour les pages qui ne devraient pas avoir de sidebar */
+.login-page .main-container {
+  justify-content: center;
+}
+
+/* Media queries pour la responsivité */
+@media screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .content {
+    width: 100%;
+  }
+}
+
+/* Reset CSS de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  margin: 0;
+}
+/* Mise à jour des styles pour le mode sombre */
+body.dark-mode {
+  background-color: var(--background-dark);
+}
+
+/* Ajout de styles spécifiques pour les cartes en mode sombre */
+body.dark-mode .post-card,
+body.dark-mode .sidebar {
+  background-color: #2c3e50;
+  color: var(--text-dark);
+}
+
+body.dark-mode .header {
+  background-color: #2c3e50;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,119 @@
+.footer {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #fff;
+    padding: 4rem 0 0 0;
+    margin-top: 4rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    /* Réduire le nombre de colonnes et leur largeur minimale */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 0 1.5rem;
+  }
+  
+  /* Ajuster la taille des sections */
+  .footer-section {
+    margin-bottom: 1.5rem;
+    max-width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Ajuster la taille du texte */
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+  }
+  
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-section ul li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #3498db;
+    padding-left: 5px;
+  }
+  
+  .footer-section ul li i {
+    margin-right: 10px;
+    color: #3498db;
+  }
+  
+  
+ 
+.social-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .social-link:hover {
+    background: #3498db;
+    transform: translateY(-3px);
+  }
+  
+  /* Media queries pour une meilleure réactivité */
+  @media (max-width: 1024px) {
+    .footer-content {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 800px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+      max-width: 500px;
+    }
+    
+    .footer-section {
+      max-width: 100%;
+    }
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 3rem;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
