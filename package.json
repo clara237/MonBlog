@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "0.1.0",
-  "homepage": "https://clara237.github.io/MonBlog",
+  "homepage":"https://clara237.github.io/MonBlog/",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
